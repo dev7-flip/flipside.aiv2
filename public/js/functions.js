@@ -2,8 +2,8 @@
 $(document).ready(function(){
  
  
-
-  $(window).on('scroll', function() { 
+  $(window).on('scroll', function() {
+    parallaxScroll(); 
     if ($(window).scrollTop() >= $( 
       '#footer-section').offset().top + $('#footer-section'). 
         outerHeight() - window.innerHeight) { 
@@ -14,6 +14,28 @@ $(document).ready(function(){
           
     } 
 }); 
+
+function parallaxScroll(){
+
+  var scrolled = $(window).scrollTop();
+  $('.bg-image').css('left',(0-(scrolled*.10))+'px');
+  $('.bg-image2').css('bottom',(0-(scrolled*.50))+'px');
+  $('.bg-blue').css('bottom',(0-(scrolled*0.50))+'px');
+}
+
+
+$()
+
+let map = $('.flip-map');
+map.on('click', function() {
+  if (map.scrollWheelZoom.enabled()) {
+    map.scrollWheelZoom.disable();
+
+    }
+    else {
+    map.scrollWheelZoom.enable();
+    }
+});
 
   let setCookie = (name, value, days) =>  {
     var expires;
@@ -64,6 +86,8 @@ $(document).ready(function(){
 
   
   })();
+
+
 
   $('.list-mobile').find('*').click(function(event){
     let id = $(this).closest('li').attr('id');  

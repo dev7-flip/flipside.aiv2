@@ -36,11 +36,14 @@ export class Navbar extends Component {
 		<nav id="fullNav" className="fullHeight">
 		
 			<div className="logo">
-				<a href="/flipreactwp"><img src={logo} alt="Logo" /></a>
+				<a href="/flipside.ai"><img src={logo} alt="Logo" /></a>
 			</div>
 			<div id="menu">
 				<ul>
-					<li><a href="/flipreactwp/whywork">Why Work With Us</a></li>
+					<li><a className="nav-link" href="/flipside.ai/whywork">Why Work With Us</a></li>
+					<li><a className="nav-link" href="/flipside.ai/careers">Careers</a></li>
+					{/* <li><a className="nav-link" href="/flipside.ai/whywork">About Us</a></li>
+					<li><a className="nav-link" href="/flipside.ai/whywork">Contact Us</a></li> */}
 				</ul>
 			</div>
 				{/* <button className="btn btn-primary" id="cookie">show</button> */}

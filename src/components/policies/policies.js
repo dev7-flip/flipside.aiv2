@@ -135,7 +135,7 @@ class Policies extends React.Component{
 
                             To exercise any of the rights mentioned in this Privacy Policy and/or in the event of
                             questions or comments relating to the use of Personal Data you may contact 
-                            Flipside’s support team <a href="">flipsidesupport@flipsidecontent.com</a>. 
+                            Flipside’s support team <a href="">support@flipsidecontent.com</a>. 
                             &nbsp;
                             <i>
                             (If you do not want Flipside to collect your data, you can opt-out by following the
@@ -210,7 +210,7 @@ notice on our site.</p>
                             Bagumbayan, Quezon City 1110, Philippines</p>
                             <p className="privacy-liststyle"><span className="font-weight-bold">Contact Number: </span>+63 2 5709255</p>
                             <p className="privacy-liststyle">
-                            <span className="font-weight-bold">Email : </span><a href="/" className="text-primary"> flipside@gmail.com </a> 
+                            <span className="font-weight-bold">Email : </span><a href="/" className="text-primary"> support@flipsidecontent.com </a> 
                             </p>
 
                             <br></br>

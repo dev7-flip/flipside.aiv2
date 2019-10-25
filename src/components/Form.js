@@ -71,7 +71,7 @@ export class Form extends Component {
                 mailSent: 'sent',
                 sending: false
             })
-            console.log('Thank you for contacting us!');
+            // console.log('Thank you for contacting us!');
         })
         .catch(error => {
             this.setState({ mailSent: 'not sent', sending: false });
@@ -133,7 +133,7 @@ export class Form extends Component {
                         <div className="form-group">
                             <label className="form-label" htmlFor="message">Message</label>
                             <textarea 
-                                rows="5" 
+                                row="5" 
                                 cols="50" 
                                 name="message" 
                                 className="form-control" 
@@ -180,7 +180,7 @@ export class Form extends Component {
             return(
 
 
-<div className="row justify-content-center sending-container">
+<div className="row-footer justify-content-center sending-container">
 <div className="jumbotron jumbotron-fluid bgwhite">
 <div className="container">
 
@@ -195,7 +195,7 @@ export class Form extends Component {
             )
         }else{
             return(
-                <div className="row justify-content-center">
+                <div className="row-footer justify-content-center">
                     <div className="jumbotron jumbotron-fluid bgwhite">
                     <div className="container">
                         

@@ -3,9 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.1",
+    "jquery": "^3.4.1",
+    "leaflet": "^1.5.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-google-recaptcha": "^2.0.0-rc.1",
+    "react-leaflet": "^2.4.0",
+    "react-native-render-html": "^4.1.2",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "react-scroll": "^1.7.14",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
+    "universal-cookie": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "http://192.168.1.182/flipside.aiv2/"
 }

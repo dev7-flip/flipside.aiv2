@@ -13,7 +13,7 @@ class Privacy extends React.Component {
         <header id="banner-whywork">
             <div className="bg-blue"></div>
             <div className="content-wrap">
-                <h1><span className="bold big">Privacy & Terms</span></h1>
+                <h1><span className="bold big">Privacy & Policy</span></h1>
 
             </div>
         </header>
