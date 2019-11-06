@@ -33,8 +33,8 @@
             //Set this to true if SMTP host requires authentication to send email
             $mail->SMTPAuth = true;                          
             //Provide username and password     
-            $mail->Username = "j.dioqueono@gmail.com";                 
-            $mail->Password = "jandepriolo123";                           
+            $mail->Username = "username";                 
+            $mail->Password = "pass";                           
             //If SMTP requires TLS encryption then set it
             //$mail->SMTPSecure = "tls";                           
             //Set TCP port to connect to 
